@@ -45,8 +45,8 @@ BANXICO_TOKEN=tu_token_de_banxico
 
 | Clave | Para qué se usa | Cómo obtenerla |
 |---|---|---|
-| `CENSUS_API_KEY` | Importaciones de EUA por subpartida y país (script 06) | Solicitarla gratis en https://api.census.gov/data/key_signup.html. Llega por correo y hay que activarla con el enlace que mandan. |
-| `BANXICO_TOKEN` | Tipo de cambio y series macro (01 y 19); INPC solo si las slides de contexto se corren en pesos | Generarlo gratis en el portal de la API del SIE de Banxico: https://www.banxico.org.mx/SieAPIRest/service/v1/token |
+| `CENSUS_API_KEY` | Importaciones de EUA por subpartida y país (script 06) | Solicitarla en https://api.census.gov/data/key_signup.html. Llega por correo y hay que activarla con el enlace que mandan. |
+| `BANXICO_TOKEN` | Tipo de cambio y series macro (01 y 19); INPC solo si las slides de contexto se corren en pesos | Generarlo en el portal de la API del SIE de Banxico: https://www.banxico.org.mx/SieAPIRest/service/v1/token |
 
 Los scripts que se identifican ante portales externos (por ejemplo, el user agent de la SEC) usan un correo personal, no el institucional.
 
